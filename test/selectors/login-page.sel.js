@@ -1,0 +1,15 @@
+export default {
+    form: '.gg-login-form',
+    title1: '.gg-login-form-title1',
+    title2: '.gg-login-form-title2',
+    title3: '.gg-login-form-title3',
+    title4: '.gg-login-form-title4',
+    linksText: '.gg-links-text',
+    forgotLink: '.gg-link',
+    inputElement: '.gg-input-el-group',
+    inputUsername: '#Username',
+    inputPassword: '#Password',
+    loginBtn: '.gg-btn',
+    errorBlock: '.gg-error-block',
+    userErrorText: '.gg-error-block',
+}
