@@ -4,7 +4,7 @@ import loginSel from '../selectors/login-page.sel';
 import exp from "../expected/userRecover.exp";
 import baseExp from "../expected/base.exp";
 import loginExp from "../expected/login.exp";
-import sel from "../selectors/login-page.sel";
+import sel from "../selectors/username-recover-page.sel";
 
 class UsernameRecoverPage extends Base {
 
@@ -22,7 +22,7 @@ class UsernameRecoverPage extends Base {
     }
 
     titleTwoDisplayed() {
-        $(sel.title2).isDisplayed();
+        $(loginSel.title2).isDisplayed();
     }
 
     titleTwoText() {
@@ -31,7 +31,7 @@ class UsernameRecoverPage extends Base {
     }
 
     inputUsernameDisplayed() {
-        $(loginSel.inputUsername).isDisplayed();
+        $(sel.inputEmail).isDisplayed();
     }
 
     inputUsernameLabelDisplayed() {
@@ -42,13 +42,58 @@ class UsernameRecoverPage extends Base {
     inputUsernameLabelText() {
         const usernameLabel = $(loginSel.inputElement).$('label');
         const text = usernameLabel.getText();
-        assert.equal(text, exp.labelText)
+        assert.equal(text, exp.labelText);
     }
 
     forgotPassLinkDisplayed() {
-        const usernameLabel = $(loginSel.inputElement).$('label');
-        const text = usernameLabel.getText();
-        assert.equal(text, exp.labelText)
+        $(loginSel.linksText).isDisplayed();
+    }
+
+    forgotPassLinkClick() {
+        $(loginSel.linksText).click();
+    }
+
+    forgotPassLinkText() {
+        const text = $(loginSel.linksText).getText();
+        assert.equal(text, exp.linkText)
+    }
+
+    buttonsDisplayed() {
+        const buttons = $$(sel.btn).length;
+        assert.equal(buttons, 2)
+    }
+
+    backToLoginBtnText() {
+        const text = $$(sel.btn)[0].getText();
+        assert.equal(text, exp.btn1Text)
+    }
+
+    backToLoginBtnClick() {
+        $$(sel.btn)[0].click();
+    }
+
+    recoverUserBtnText() {
+        const text = $$(sel.btn)[1].getText();
+        assert.equal(text, exp.btn2Text)
+    }
+
+    setTestEmail() {
+        $(sel.inputEmail).setValue('test@test.com');
+    }
+
+    recoverUserBtnClick() {
+        $$(sel.btn)[1].click();
+    }
+
+    recoverUserBtnHide() {
+        const buttons = $$(sel.btn).length;
+        assert.equal(buttons, 1);
+        this.backToLoginBtnText();
+    }
+
+    successMessage() {
+        const text = $('form').$(loginSel.title1).getText();
+        assert.equal(text, exp.successMsg)
     }
 
 }

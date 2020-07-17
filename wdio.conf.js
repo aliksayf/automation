@@ -26,6 +26,8 @@ exports.config = {
         './test/specs/header-page.test.js',
         './test/specs/footer-page.test.js',
         './test/specs/footer-page-functionality.test.js',
+        './test/specs/user-recover-page.test.js',
+        './test/specs/user-recover-functionality-page.test.js',
     ],
     //
     // ============
