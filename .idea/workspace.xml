@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7ddec9c-732b-4c8e-978d-352c1749139b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/expected/forgotPassword.exp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pages/forgot-password.page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/selectors/username-recover-page.sel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/specs/forgot-password-page.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/specs/user-recover-page-functionality.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/expected/userRecover.exp.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/expected/userRecover.exp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pages/username-recover.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pages/username-recover.page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/specs/user-recover-page.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/specs/user-recover-page.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/selectors/forgot-password-page.sel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/specs/forgot-password-page-functionality.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/expected/forgotPassword.exp.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/expected/forgotPassword.exp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pages/forgot-password.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pages/forgot-password.page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/specs/forgot-password-page.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/specs/forgot-password-page.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wdio.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/wdio.conf.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,9 +46,9 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Projects\alluma\test\specs" />
+      <recent name="C:\Projects\alluma\test\selectors" />
       <recent name="C:\Projects\alluma\test\expected" />
       <recent name="C:\Projects\alluma\test\pages" />
-      <recent name="C:\Projects\alluma\test\selectors" />
       <recent name="C:\QA\automation-alluma\test\expected" />
     </key>
   </component>
@@ -98,38 +95,58 @@
       <option name="presentableId" value="Default" />
       <updated>1594847859096</updated>
       <workItem from="1594847863440" duration="43611000" />
-      <workItem from="1594950580873" duration="7381000" />
+      <workItem from="1594950580873" duration="14995000" />
     </task>
+    <task id="LOCAL-00001" summary="forgot password">
+      <created>1594966083947</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594966083947</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="forgot password" />
+    <option name="LAST_COMMIT_MESSAGE" value="forgot password" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1594966082480">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594966082480" />
     <state x="548" y="153" key="FileChooserDialogImpl" timestamp="1594886803361">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594886803361" />
-    <state width="1515" height="116" key="GridCell.Tab.0.bottom" timestamp="1594965245949">
+    <state width="1515" height="70" key="GridCell.Tab.0.bottom" timestamp="1594973811689">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="116" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594965245949" />
-    <state width="1515" height="116" key="GridCell.Tab.0.center" timestamp="1594965245948">
+    <state width="1515" height="70" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594973811689" />
+    <state width="1515" height="70" key="GridCell.Tab.0.center" timestamp="1594973811688">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="116" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594965245948" />
-    <state width="1515" height="116" key="GridCell.Tab.0.left" timestamp="1594965245948">
+    <state width="1515" height="70" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594973811688" />
+    <state width="1515" height="70" key="GridCell.Tab.0.left" timestamp="1594973811688">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="116" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594965245948" />
-    <state width="1515" height="116" key="GridCell.Tab.0.right" timestamp="1594965245949">
+    <state width="1515" height="70" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594973811688" />
+    <state width="1515" height="70" key="GridCell.Tab.0.right" timestamp="1594973811688">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="116" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594965245949" />
+    <state width="1515" height="70" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594973811688" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1594848507176">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594848507176" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1594966089041">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594966089041" />
     <state x="478" y="116" width="579" height="592" key="find.popup" timestamp="1594864581338">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

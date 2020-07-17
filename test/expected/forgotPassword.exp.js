@@ -1,7 +1,8 @@
 export default {
     title2: 'Forgot Password?',
-    labelText: 'Email required',
-    linkText: 'I forgot my Password',
-    btn1Text: 'Back to Login',
-    btn2Text: 'Recover Username',
+    labelText: 'User name required',
+    linkText: 'I forgot my User Name',
+    btn1Text: 'Cancel',
+    btn2Text: 'Continue   >',
+    commentText: 'Tell us your user name so that we can send you a link to reset your password.',
 }

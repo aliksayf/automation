@@ -1,63 +1,71 @@
-import userRecover from '../pages/username-recover.page';
+import forgotPass from '../pages/forgot-password.page';
 import login from "../pages/login.page";
 
-describe('User Recover page', function () {
+describe('Forgot Password page', function () {
 
         before('Open', function () {
-            userRecover.openBase()
-            login.forgotUsernameClick()
+            login.openBase()
+            login.forgotPasswordClick()
         })
 
-        it('Recover username form is displayed', function () {
-            userRecover.loginFormDisplayed()
+        it('Forgot password form is displayed', function () {
+            forgotPass.loginFormDisplayed()
         })
 
         it('Form main title is displayed', function () {
-            userRecover.titleOneDisplayed()
+            forgotPass.titleOneDisplayed()
         })
 
         it('Form main title text', function () {
-            userRecover.titleOneText()
+            forgotPass.titleOneText()
         })
 
         it('Form title 2 displayed', function () {
-            userRecover.titleTwoDisplayed()
+            forgotPass.titleTwoDisplayed()
         })
 
         it('Form title 2 text', function () {
-            userRecover.titleTwoText()
+            forgotPass.titleTwoText()
+        })
+
+        it('Comment displayed', function () {
+            forgotPass.commentDisplayed()
+        })
+
+        it('Comment text', function () {
+            forgotPass.commentText()
         })
 
         it('Input username displayed', function () {
-            userRecover.inputUsernameDisplayed()
+            forgotPass.inputUsernameDisplayed()
         })
 
         it('Input username label displayed', function () {
-            userRecover.inputUsernameLabelDisplayed()
+            forgotPass.inputUsernameLabelDisplayed()
         })
 
         it('Input username label text', function () {
-            userRecover.inputUsernameLabelText()
+            forgotPass.inputUsernameLabelText()
         })
 
-        it('Forgot password link is displayed', function () {
-            userRecover.forgotPassLinkDisplayed()
+        it('Forgot username link is displayed', function () {
+            forgotPass.forgotUsernameLinkDisplayed()
         })
 
-        it('Forgot password link text', function () {
-            userRecover.forgotPassLinkText()
+        it('Forgot username link text', function () {
+            forgotPass.forgotUsernameLinkText()
         })
 
         it('Form has two buttons', function () {
-            userRecover.buttonsDisplayed()
+            forgotPass.buttonsDisplayed()
         })
 
         it('First button text', function () {
-            userRecover.backToLoginBtnText()
+            forgotPass.cancelBtnText()
         })
 
         it('Second button text', function () {
-            userRecover.recoverUserBtnText()
+            forgotPass.continueBtnText()
         })
 
 });
