@@ -1,15 +1,15 @@
 import { assert } from 'chai';
 import Base from "./base";
 import loginSel from '../selectors/login.sel';
-import exp from "../expected/forgotPassword.exp";
+import exp from "../expected/emailSent.exp";
 import baseExp from "../expected/base.exp";
 import loginExp from "../expected/login.exp";
-import sel from "../selectors/forgot-password.sel";
+import sel from "../selectors/email-sent.sel";
 
-class ForgotPasswordPage extends Base {
+class EmailSent extends Base {
 
-    loginFormDisplayed() {
-        const isDisplayed = $(loginSel.form).isDisplayed();
+    emailFormDisplayed() {
+        const isDisplayed = $(sel.form).isDisplayed();
         assert.equal(isDisplayed, true);
     }
 
@@ -24,12 +24,12 @@ class ForgotPasswordPage extends Base {
     }
 
     titleTwoDisplayed() {
-        const isDisplayed = $(loginSel.title2).isDisplayed();
+        const isDisplayed = $(sel.title2).isDisplayed();
         assert.equal(isDisplayed, true);
     }
 
     titleTwoText() {
-        const text = $(loginSel.title2).getText();
+        const text = $(sel.title2).getText();
         assert.equal(text, exp.title2);
     }
 
@@ -42,6 +42,37 @@ class ForgotPasswordPage extends Base {
         const text = $(sel.comment).getText();
         assert.equal(text, exp.commentText);
     }
+
+    titleThreeDisplayed() {
+        const isDisplayed = $$(sel.title1)[1].isDisplayed();
+        assert.equal(isDisplayed, true);
+    }
+
+    titleThreeText() {
+        const text = $$(sel.title1)[1].getText();
+        assert.equal(text, exp.title3);
+    }
+
+    comment2Displayed() {
+        const isDisplayed = $(sel.comment2).isDisplayed();
+        assert.equal(isDisplayed, true);
+    }
+
+    comment2Text() {
+        const text = $(sel.comment2).getText();
+        assert.equal(text, exp.commentText2);
+    }
+
+    buttonDisplayed() {
+        const isDisplayed = $(sel.btn).isDisplayed();
+        assert.equal(isDisplayed, true)
+    }
+
+    btnText() {
+        const text = $(sel.btn).getText();
+        assert.equal(text, exp.btnText)
+    }
+
 
     inputUsernameDisplayed() {
         const isDisplayed = $(loginSel.inputUsername).isDisplayed();
@@ -73,17 +104,6 @@ class ForgotPasswordPage extends Base {
     forgotUsernameLinkClick() {
         $(loginSel.linksText).click();
     }
-
-    buttonsDisplayed() {
-        const buttons = $$(sel.btn).length;
-        assert.equal(buttons, 2)
-    }
-
-    cancelBtnText() {
-        const text = $$(sel.btn)[0].getText();
-        assert.equal(text, exp.btn1Text)
-    }
-
     cancelBtnClick() {
         $$(sel.btn)[0].click();
     }
@@ -113,4 +133,4 @@ class ForgotPasswordPage extends Base {
 
 }
 
-export default new ForgotPasswordPage();
+export default new EmailSent();

@@ -29,6 +29,7 @@ exports.config = {
         './test/specs/user-recover-page.test.js',
         './test/specs/user-recover-page-functionality.test.js',
         './test/specs/forgot-password-page.test.js',
+        './test/specs/forgot-password-page-functionality.test.js',
     ],
     //
     // ============

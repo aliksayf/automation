@@ -1,10 +1,10 @@
 import { assert } from 'chai';
 import Base from "./base";
-import loginSel from '../selectors/login-page.sel';
+import loginSel from '../selectors/login.sel';
 import exp from "../expected/userRecover.exp";
 import baseExp from "../expected/base.exp";
 import loginExp from "../expected/login.exp";
-import sel from "../selectors/username-recover-page.sel";
+import sel from "../selectors/username-recover.sel";
 
 class UsernameRecoverPage extends Base {
 

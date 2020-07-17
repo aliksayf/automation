@@ -5,4 +5,5 @@ export default {
     btn1Text: 'Cancel',
     btn2Text: 'Continue   >',
     commentText: 'Tell us your user name so that we can send you a link to reset your password.',
+    errorText: 'The Username field is required.',
 }

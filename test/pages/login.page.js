@@ -1,6 +1,6 @@
 import { assert } from 'chai';
 import Base from './base'
-import sel from '../selectors/login-page.sel'
+import sel from '../selectors/login.sel'
 import exp from '../expected/base.exp'
 import loginExp from '../expected/login.exp'
 
@@ -120,7 +120,8 @@ class Login extends Base {
     }
 
     errorDisplayed() {
-        $(sel.errorBlock).isDisplayed();
+        const isDisplayed = $(sel.errorBlock).isDisplayed();
+        assert.equal(isDisplayed, true);
     }
 
     emptyUserErrorText() {

@@ -5,11 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7ddec9c-732b-4c8e-978d-352c1749139b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/selectors/forgot-password-page.sel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/specs/forgot-password-page-functionality.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/expected/emailSent.exp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/pages/email-sent.page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/selectors/footer.sel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/specs/email-sent-page.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/expected/forgotPassword.exp.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/expected/forgotPassword.exp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pages/footer.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pages/footer.page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/pages/forgot-password.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pages/forgot-password.page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/specs/forgot-password-page.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/specs/forgot-password-page.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pages/header.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pages/header.page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pages/login.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pages/login.page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pages/username-recover.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pages/username-recover.page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/selectors/footer-page.sel.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/selectors/email-sent.sel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/selectors/forgot-password-page.sel.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/selectors/forgot-password.sel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/selectors/header-page.sel.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/selectors/header.sel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/selectors/login-page.sel.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/selectors/login.sel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/selectors/username-recover-page.sel.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/selectors/username-recover.sel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/specs/forgot-password-page-functionality.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/specs/forgot-password-page-functionality.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wdio.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/wdio.conf.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +75,22 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="Forgot Password page functionality.Click [Continue] with empty username stay on the same page" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>require</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/specs/forgot-password-page-functionality.test.js</test-file>
+      <test-names>
+        <name value="Forgot Password page functionality" />
+        <name value="Click [Continue] with empty username stay on the same page" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="Login page.Input password displayed" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -82,6 +110,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.test" />
+        <item itemvalue="Mocha.Forgot Password page functionality.Click [Continue] with empty username stay on the same page" />
         <item itemvalue="Mocha.Login page.Input password displayed" />
       </list>
     </recent_temporary>
@@ -95,7 +124,7 @@
       <option name="presentableId" value="Default" />
       <updated>1594847859096</updated>
       <workItem from="1594847863440" duration="43611000" />
-      <workItem from="1594950580873" duration="14995000" />
+      <workItem from="1594950580873" duration="22239000" />
     </task>
     <task id="LOCAL-00001" summary="forgot password">
       <created>1594966083947</created>
@@ -104,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594966083947</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="forgot password func">
+      <created>1594973952020</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594973952020</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,45 +148,46 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="forgot password" />
-    <option name="LAST_COMMIT_MESSAGE" value="forgot password" />
+    <MESSAGE value="forgot password func" />
+    <option name="LAST_COMMIT_MESSAGE" value="forgot password func" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1594966082480">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1594973950361">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594966082480" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594973950361" />
     <state x="548" y="153" key="FileChooserDialogImpl" timestamp="1594886803361">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594886803361" />
-    <state width="1515" height="70" key="GridCell.Tab.0.bottom" timestamp="1594973811689">
+    <state width="1515" height="232" key="GridCell.Tab.0.bottom" timestamp="1595026452372">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="70" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594973811689" />
-    <state width="1515" height="70" key="GridCell.Tab.0.center" timestamp="1594973811688">
+    <state width="1515" height="232" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595026452372" />
+    <state width="1515" height="232" key="GridCell.Tab.0.center" timestamp="1595026452372">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="70" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594973811688" />
-    <state width="1515" height="70" key="GridCell.Tab.0.left" timestamp="1594973811688">
+    <state width="1515" height="232" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595026452372" />
+    <state width="1515" height="232" key="GridCell.Tab.0.left" timestamp="1595026452372">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="70" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594973811688" />
-    <state width="1515" height="70" key="GridCell.Tab.0.right" timestamp="1594973811688">
+    <state width="1515" height="232" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595026452372" />
+    <state width="1515" height="232" key="GridCell.Tab.0.right" timestamp="1595026452372">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="70" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594973811688" />
+    <state width="1515" height="232" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595026452372" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1594848507176">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594848507176" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1594966089041">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1594973958129">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594966089041" />
-    <state x="478" y="116" width="579" height="592" key="find.popup" timestamp="1594864581338">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594973958129" />
+    <state x="478" y="116" width="579" height="592" key="find.popup" timestamp="1595023909373">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="478" y="116" width="579" height="592" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1594864581338" />
+    <state x="478" y="116" width="579" height="592" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1595023909373" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

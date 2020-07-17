@@ -1,6 +1,6 @@
 import { assert } from 'chai';
 import Base from "./base";
-import sel from '../selectors/footer-page.sel';
+import sel from '../selectors/footer.sel';
 import expBase from '../expected/base.exp';
 import exp from '../expected/footer.exp';
 
