@@ -25,11 +25,13 @@ exports.config = {
         './test/specs/login-form-functionality.test.js',
         './test/specs/header-page.test.js',
         './test/specs/footer-page.test.js',
-        './test/specs/footer-page-functionality.test.js',
+        // './test/specs/footer-page-functionality.test.js',
         './test/specs/user-recover-page.test.js',
         './test/specs/user-recover-page-functionality.test.js',
         './test/specs/forgot-password-page.test.js',
         './test/specs/forgot-password-page-functionality.test.js',
+        './test/specs/email-sent-page.test.js',
+        './test/specs/email-sent-page-functionality.test.js',
     ],
     //
     // ============

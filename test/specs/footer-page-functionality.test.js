@@ -14,6 +14,7 @@ describe('Footer page functionality', function () {
 
         it('Social icon 3 leads to linkedIn', function () {
             footer.openBase()
+            footer.footerDisplayed()
             footer.socialIcon3Click()
         })
 
@@ -28,19 +29,19 @@ describe('Footer page functionality', function () {
             footer.openBase()
         })
 
-        it('CC link 2 leads to homepage', function () {
+        it('CC link 2 leads to _', function () {
             footer.openBase()
             footer.ccLink2()
         })
 
-        it('CC link 3 leads to homepage', function () {
+        it('CC link 3 leads to _', function () {
             footer.openBase()
             footer.ccLink3()
         })
 
-        it('CC link 4 leads to homepage', function () {
-            footer.openBase()
-            footer.ccLink4()
-        })
+        // it('CC link 4 leads to mail agent', function () {
+        //     footer.openBase()
+        //     footer.ccLink4()
+        // })
 
 });

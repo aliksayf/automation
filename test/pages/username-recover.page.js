@@ -1,19 +1,20 @@
-import { assert } from 'chai';
+import {assert} from 'chai';
 import Base from "./base";
 import loginSel from '../selectors/login.sel';
 import exp from "../expected/userRecover.exp";
 import baseExp from "../expected/base.exp";
-import loginExp from "../expected/login.exp";
 import sel from "../selectors/username-recover.sel";
 
 class UsernameRecoverPage extends Base {
 
     loginFormDisplayed() {
-        $(loginSel.form).isDisplayed();
+        const isDisplayed = $(loginSel.form).isDisplayed();
+        assert.equal(isDisplayed, true);
     }
 
     titleOneDisplayed() {
-        $$(loginSel.title1)[0].isDisplayed();
+        const isDisplayed = $$(loginSel.title1)[0].isDisplayed();
+        assert.equal(isDisplayed, true);
     }
 
     titleOneText() {
@@ -22,7 +23,8 @@ class UsernameRecoverPage extends Base {
     }
 
     titleTwoDisplayed() {
-        $(loginSel.title2).isDisplayed();
+        const isDisplayed = $(loginSel.title2).isDisplayed();
+        assert.equal(isDisplayed, true);
     }
 
     titleTwoText() {
@@ -31,12 +33,14 @@ class UsernameRecoverPage extends Base {
     }
 
     inputUsernameDisplayed() {
-        $(sel.inputEmail).isDisplayed();
+        const isDisplayed = $(sel.inputEmail).isDisplayed();
+        assert.equal(isDisplayed, true);
     }
 
     inputUsernameLabelDisplayed() {
         const usernameLabel = $(loginSel.inputElement).$('label');
-        usernameLabel.isDisplayed();
+        const isDisplayed = usernameLabel.isDisplayed();
+        assert.equal(isDisplayed, true);
     }
 
     inputUsernameLabelText() {
@@ -46,7 +50,8 @@ class UsernameRecoverPage extends Base {
     }
 
     forgotPassLinkDisplayed() {
-        $(loginSel.linksText).isDisplayed();
+        const isDisplayed = $(loginSel.linksText).isDisplayed();
+        assert.equal(isDisplayed, true);
     }
 
     forgotPassLinkClick() {
@@ -55,17 +60,17 @@ class UsernameRecoverPage extends Base {
 
     forgotPassLinkText() {
         const text = $(loginSel.linksText).getText();
-        assert.equal(text, exp.linkText)
+        assert.equal(text, exp.linkText);
     }
 
     buttonsDisplayed() {
         const buttons = $$(sel.btn).length;
-        assert.equal(buttons, 2)
+        assert.equal(buttons, 2);
     }
 
     backToLoginBtnText() {
         const text = $$(sel.btn)[0].getText();
-        assert.equal(text, exp.btn1Text)
+        assert.equal(text, exp.btn1Text);
     }
 
     backToLoginBtnClick() {
@@ -74,7 +79,7 @@ class UsernameRecoverPage extends Base {
 
     recoverUserBtnText() {
         const text = $$(sel.btn)[1].getText();
-        assert.equal(text, exp.btn2Text)
+        assert.equal(text, exp.btn2Text);
     }
 
     setTestEmail() {
@@ -93,7 +98,7 @@ class UsernameRecoverPage extends Base {
 
     successMessage() {
         const text = $('form').$(loginSel.title1).getText();
-        assert.equal(text, exp.successMsg)
+        assert.equal(text, exp.successMsg);
     }
 
 }

@@ -4,24 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7ddec9c-732b-4c8e-978d-352c1749139b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/expected/emailSent.exp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pages/email-sent.page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/selectors/footer.sel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/specs/email-sent-page.test.js" afterDir="false" />
+    <list default="true" id="c7ddec9c-732b-4c8e-978d-352c1749139b" name="Default Changelist" comment="last">
+      <change afterPath="$PROJECT_DIR$/test/specs/email-sent-page-functionality.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/expected/forgotPassword.exp.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/expected/forgotPassword.exp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/expected/emailSent.exp.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/expected/emailSent.exp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/expected/footer.exp.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/expected/footer.exp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pages/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pages/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pages/email-sent.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pages/email-sent.page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/pages/footer.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pages/footer.page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/pages/forgot-password.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pages/forgot-password.page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/pages/header.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pages/header.page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/pages/login.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pages/login.page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/pages/username-recover.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pages/username-recover.page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/selectors/footer-page.sel.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/selectors/email-sent.sel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/selectors/forgot-password-page.sel.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/selectors/forgot-password.sel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/selectors/header-page.sel.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/selectors/header.sel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/selectors/login-page.sel.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/selectors/login.sel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/selectors/username-recover-page.sel.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/selectors/username-recover.sel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/specs/forgot-password-page-functionality.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/specs/forgot-password-page-functionality.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/selectors/email-sent.sel.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/selectors/email-sent.sel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/selectors/footer.sel.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/selectors/footer.sel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/specs/footer-page-functionality.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/specs/footer-page-functionality.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wdio.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/wdio.conf.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +121,7 @@
       <option name="presentableId" value="Default" />
       <updated>1594847859096</updated>
       <workItem from="1594847863440" duration="43611000" />
-      <workItem from="1594950580873" duration="22239000" />
+      <workItem from="1594950580873" duration="30854000" />
     </task>
     <task id="LOCAL-00001" summary="forgot password">
       <created>1594966083947</created>
@@ -140,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594973952020</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="email sent page test">
+      <created>1595026546377</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595026546377</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,41 +153,43 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="forgot password" />
     <MESSAGE value="forgot password func" />
-    <option name="LAST_COMMIT_MESSAGE" value="forgot password func" />
+    <MESSAGE value="email sent page test" />
+    <MESSAGE value="last" />
+    <option name="LAST_COMMIT_MESSAGE" value="last" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1594973950361">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1595028126589">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594973950361" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1595028126589" />
     <state x="548" y="153" key="FileChooserDialogImpl" timestamp="1594886803361">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594886803361" />
-    <state width="1515" height="232" key="GridCell.Tab.0.bottom" timestamp="1595026452372">
+    <state width="1515" height="344" key="GridCell.Tab.0.bottom" timestamp="1595036217080">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="232" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595026452372" />
-    <state width="1515" height="232" key="GridCell.Tab.0.center" timestamp="1595026452372">
+    <state width="1515" height="344" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595036217080" />
+    <state width="1515" height="344" key="GridCell.Tab.0.center" timestamp="1595036217079">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="232" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595026452372" />
-    <state width="1515" height="232" key="GridCell.Tab.0.left" timestamp="1595026452372">
+    <state width="1515" height="344" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595036217079" />
+    <state width="1515" height="344" key="GridCell.Tab.0.left" timestamp="1595036217079">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="232" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595026452372" />
-    <state width="1515" height="232" key="GridCell.Tab.0.right" timestamp="1595026452372">
+    <state width="1515" height="344" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595036217079" />
+    <state width="1515" height="344" key="GridCell.Tab.0.right" timestamp="1595036217080">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="232" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595026452372" />
+    <state width="1515" height="344" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595036217080" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1594848507176">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594848507176" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1594973958129">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1595026550061">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594973958129" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1595026550061" />
     <state x="478" y="116" width="579" height="592" key="find.popup" timestamp="1595023909373">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

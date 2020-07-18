@@ -61,8 +61,8 @@ class ForgotPasswordPage extends Base {
     }
 
     forgotUsernameLinkDisplayed() {
-        const text = $(loginSel.linksText).isDisplayed();
-        assert.equal(text, exp.labelText);
+        const isDisplayed = $(loginSel.linksText).isDisplayed();
+        assert.equal(isDisplayed, true);
     }
 
     forgotUsernameLinkText() {

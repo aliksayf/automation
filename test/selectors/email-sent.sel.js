@@ -4,7 +4,7 @@ export default {
     title2: '.gg-login-form-title2',
 
     btn: '.gg-btn',
-    inputEmail: '#Email',
+    resend: '.gg-button-as-link',
     comment: '.gg-forgotpwd-msg2',
     comment2: '.gg-forgotpwd-msg1'
 }

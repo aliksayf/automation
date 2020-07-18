@@ -15,5 +15,6 @@ export default {
 
     ccPart: '.gg-footer-cc',
     allumaLogo: '.gg-footer-cc-img',
-    ccTextPart: '.gg-footer-cc-text'
+    ccTextPart: '.gg-footer-cc-text',
+    ccLinks: '.gg-footer-link-a',
 }

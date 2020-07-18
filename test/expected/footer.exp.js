@@ -11,6 +11,6 @@ export default {
 
     allumaFacebook: 'https://www.facebook.com/WeAreAlluma/?ref=page_internal',
     allumaTwitter: 'https://twitter.com/WeAreAlluma',
-    allumaLinkedIN: 'https://www.linkedin.com/company/we-are-alluma/',
+    allumaLinkedIN: 'https://www.linkedin.com/',
     allumaHomepage: 'https://www.alluma.org/',
 }

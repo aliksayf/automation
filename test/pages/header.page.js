@@ -7,11 +7,13 @@ import exp from '../expected/header.exp';
 class Header extends Base {
 
     headerDisplayed() {
-        $(sel.header).isDisplayed();
+        const isDisplayed = $(sel.header).isDisplayed();
+        assert.equal(isDisplayed, true);
     }
 
     headerTitle() {
-        $(sel.title).isDisplayed();
+        const isDisplayed = $(sel.title).isDisplayed();
+        assert.equal(isDisplayed, true);
     }
 
     headerTitleText() {

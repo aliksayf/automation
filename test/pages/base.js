@@ -7,7 +7,7 @@ class Base {
     }
 
     getColor(sel) {
-        return $(sel)
+        return sel
             .getCSSProperty('color')
             .parsed.hex
     }

@@ -1,9 +1,8 @@
-import { assert } from 'chai';
+import {assert} from 'chai';
 import Base from "./base";
 import loginSel from '../selectors/login.sel';
 import exp from "../expected/emailSent.exp";
 import baseExp from "../expected/base.exp";
-import loginExp from "../expected/login.exp";
 import sel from "../selectors/email-sent.sel";
 
 class EmailSent extends Base {
@@ -68,67 +67,17 @@ class EmailSent extends Base {
         assert.equal(isDisplayed, true)
     }
 
+    buttonClick() {
+        $(sel.btn).click();
+    }
+
     btnText() {
         const text = $(sel.btn).getText();
         assert.equal(text, exp.btnText)
     }
 
-
-    inputUsernameDisplayed() {
-        const isDisplayed = $(loginSel.inputUsername).isDisplayed();
-        assert.equal(isDisplayed, true);
-    }
-
-    inputUsernameLabelDisplayed() {
-        const usernameLabel = $(loginSel.inputElement).$('label');
-        const isDisplayed = usernameLabel.isDisplayed();
-        assert.equal(isDisplayed, true);
-    }
-
-    inputUsernameLabelText() {
-        const usernameLabel = $(loginSel.inputElement).$('label');
-        const text = usernameLabel.getText();
-        assert.equal(text, exp.labelText);
-    }
-
-    forgotUsernameLinkDisplayed() {
-        const text = $(loginSel.linksText).isDisplayed();
-        assert.equal(text, exp.labelText);
-    }
-
-    forgotUsernameLinkText() {
-        const text = $(loginSel.linksText).getText();
-        assert.equal(text, exp.linkText)
-    }
-
-    forgotUsernameLinkClick() {
-        $(loginSel.linksText).click();
-    }
-    cancelBtnClick() {
-        $$(sel.btn)[0].click();
-    }
-
-    continueBtnText() {
-        const text = $$(sel.btn)[1].getText();
-        assert.equal(text, exp.btn2Text)
-    }
-
-    continueBtnClick() {
-        $$(sel.btn)[1].click();
-    }
-
-    errorDisplayed() {
-        const isDisplayed = $(loginSel.errorBlock).isDisplayed();
-        assert.equal(isDisplayed, true);
-    }
-
-    errorText() {
-        const text = $(loginSel.errorBlock).$$('li')[0].getText();
-        assert.equal(text, exp.errorText);
-    }
-
-    inputTestUsername() {
-        $(loginSel.inputUsername).setValue('test');
+    resendEmailLinkClick() {
+        $(sel.resend).click();
     }
 
 }

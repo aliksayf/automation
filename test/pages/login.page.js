@@ -1,4 +1,4 @@
-import { assert } from 'chai';
+import {assert} from 'chai';
 import Base from './base'
 import sel from '../selectors/login.sel'
 import exp from '../expected/base.exp'
@@ -7,11 +7,13 @@ import loginExp from '../expected/login.exp'
 class Login extends Base {
 
     loginFormDisplayed() {
-        $(sel.form).isDisplayed();
+        const isDisplayed = $(sel.form).isDisplayed();
+        assert.equal(isDisplayed, true);
     }
 
     titleOneDisplayed() {
-        $$(sel.title1)[0].isDisplayed();
+        const isDisplayed = $$(sel.title1)[0].isDisplayed();
+        assert.equal(isDisplayed, true);
     }
 
     titleOneText() {
@@ -20,7 +22,8 @@ class Login extends Base {
     }
 
     titleTwoDisplayed() {
-        $(sel.title2).isDisplayed();
+        const isDisplayed = $(sel.title2).isDisplayed();
+        assert.equal(isDisplayed, true);
     }
 
     titleTwoText() {
@@ -29,7 +32,8 @@ class Login extends Base {
     }
 
     titleThreeDisplayed() {
-        $$(sel.title1)[0].isDisplayed();
+        const isDisplayed = $$(sel.title1)[0].isDisplayed();
+        assert.equal(isDisplayed, true);
     }
 
     titleThreeText() {
@@ -38,7 +42,8 @@ class Login extends Base {
     }
 
     linkTitleDisplayed() {
-        $$(sel.title1)[1].isDisplayed();
+        const isDisplayed = $$(sel.title1)[1].isDisplayed();
+        assert.equal(isDisplayed, true);
     }
 
     linkTitleText() {
@@ -47,22 +52,24 @@ class Login extends Base {
     }
 
     linkToQuickScrDisplayed() {
-        $(sel.linksText).isDisplayed();
+        const isDisplayed = $(sel.linksText).isDisplayed();
+        assert.equal(isDisplayed, true);
     }
 
     linkToQuickScrText() {
         const text = $(sel.linksText).$('a').getText();
-        assert.equal(text, loginExp.linkQuickScrText)
+        assert.equal(text, loginExp.linkQuickScrText);
     }
 
     linkToQuickScrColor() {
-        const selector = $(sel.linksText).$('a')
+        const selector = $(sel.linksText).$('a');
         const color = this.getColor(selector);
-        assert.equal(color, exp.colorSecondary)
+        assert.equal(color, exp.colorSecondary);
     }
 
     inputUsernameDisplayed() {
-        $(sel.inputUsername).isDisplayed();
+        const isDisplayed = $(sel.inputUsername).isDisplayed();
+        assert.equal(isDisplayed, true);
     }
 
     inputUsernameLabelDisplayed() {
@@ -77,22 +84,25 @@ class Login extends Base {
     }
 
     inputPasswordDisplayed() {
-        $(sel.inputPassword).isDisplayed();
+        const isDisplayed = $(sel.inputPassword).isDisplayed();
+        assert.equal(isDisplayed, true);
     }
 
     inputPasswordLabelDisplayed() {
         const passwordLabel = $$(sel.inputElement)[1].$('label');
-        passwordLabel.isDisplayed();
+        const isDisplayed = passwordLabel.isDisplayed();
+        assert.equal(isDisplayed, true);
     }
 
     inputPasswordLabelText() {
         const passwordLabel = $$(sel.inputElement)[1].$('label');
         const text = passwordLabel.getText();
-        assert.equal(text, loginExp.labelInputPassword)
+        assert.equal(text, loginExp.labelInputPassword);
     }
 
     loginBtnDisplayed() {
-        $(sel.loginBtn).isDisplayed();
+        const isDisplayed = $(sel.loginBtn).isDisplayed();
+        assert.equal(isDisplayed, true);
     }
 
     loginBtnBgColor() {
@@ -131,7 +141,7 @@ class Login extends Base {
 
     emptyPassErrorText() {
         const selector = $(sel.errorBlock).$$('li');
-        const text = selector[selector.length -1].getText();
+        const text = selector[selector.length - 1].getText();
         assert.equal(text, loginExp.passEmptyError);
     }
 

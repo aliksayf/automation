@@ -1,17 +1,18 @@
-import { assert } from 'chai';
+import {assert} from 'chai';
 import Base from "./base";
 import sel from '../selectors/footer.sel';
-import expBase from '../expected/base.exp';
 import exp from '../expected/footer.exp';
 
 class Footer extends Base {
 
     footerDisplayed() {
-        $(sel.footer).isDisplayed();
+        const isDisplayed = $(sel.footer).isDisplayed();
+        assert.equal(isDisplayed, true);
     }
 
     footerInfoDisplayed() {
-        $(sel.info).isDisplayed();
+        const isDisplayed = $(sel.info).isDisplayed();
+        assert.equal(isDisplayed, true);
     }
 
     footerInfoSections() {
@@ -65,11 +66,13 @@ class Footer extends Base {
     }
 
     ccPartDisplayed() {
-        $(sel.ccPart).isDisplayed()
+        const isDisplayed = $(sel.ccPart).isDisplayed();
+        assert.equal(isDisplayed, true);
     }
 
     ccPartHasLogo() {
-        $(sel.allumaLogo).isDisplayed()
+        const isDisplayed = $(sel.allumaLogo).isDisplayed();
+        assert.equal(isDisplayed, true);
     }
 
     ccPartText() {
@@ -78,13 +81,13 @@ class Footer extends Base {
     }
 
     socialIcon1Click() {
-        $(sel.faceBookIcon).click();
+        $(sel.info).$(sel.faceBookIcon).click();
         const url = browser.getUrl();
         assert.equal(url, exp.allumaFacebook);
     }
 
     socialIcon2Click() {
-        $(sel.twitterIcon).click();
+        $(sel.info).$(sel.twitterIcon).click();
         const url = browser.getUrl();
         assert.equal(url, exp.allumaTwitter);
     }
@@ -92,7 +95,8 @@ class Footer extends Base {
     socialIcon3Click() {
         $(sel.linkedInIcon).click();
         const url = browser.getUrl();
-        assert.equal(url, exp.allumaLinkedIN);
+        const res = url.includes(exp.allumaLinkedIN);
+        assert.equal(res, true);
     }
 
     allumaLogoClick() {
@@ -108,20 +112,20 @@ class Footer extends Base {
     }
 
     ccLink2() {
-        $(sel.ccTextPart).$$('a')[1].click();
-        const url = browser.getUrl();
+        $$(sel.ccLinks)[1].click();
+        // const url = browser.getUrl();
         // not defined yet ;
     }
 
     ccLink3() {
-        $(sel.ccTextPart).$$('a')[2].click();
-        const url = browser.getUrl();
+        $$(sel.ccLinks)[2].click();
+        // const url = browser.getUrl();
         // not defined yet ;
     }
 
     ccLink4() {
-        $(sel.ccTextPart).$$('a')[3].click();
-        const url = browser.getUrl();
+        // $$(sel.ccLinks)[3].click();
+        // const url = browser.getUrl();
         // not defined yet ;
     }
 
