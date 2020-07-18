@@ -3,6 +3,7 @@
 1. [Prerequisites](#prerequisites)
 2. [Setting project](#runnig-project)
 3. [Testing](#testing)
+4. [Test cases](#cases)
 
 ===
 
@@ -55,3 +56,7 @@ Run command:
 ````
 npm test
 ````
+
+<a name="cases"></a>
+<a href="https://docs.google.com/document/d/13006gG8A_o-Z68Ua2nKqvVYiPJiDGW_TyB8-rzF5h6s/edit?usp=sharing">Test cases</a>
+
