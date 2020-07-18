@@ -1,6 +1,6 @@
 import header from '../pages/header.page';
 
-describe('Header page', function () { //define suite title by passing a string
+describe('Header page', function () {
 
         before('Open', function () {
             header.openBase()

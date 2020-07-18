@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7ddec9c-732b-4c8e-978d-352c1749139b" name="Default Changelist" comment="last">
-      <change afterPath="$PROJECT_DIR$/test/specs/email-sent-page-functionality.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/expected/emailSent.exp.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/expected/emailSent.exp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/expected/footer.exp.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/expected/footer.exp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pages/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pages/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pages/email-sent.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pages/email-sent.page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pages/footer.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pages/footer.page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pages/forgot-password.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pages/forgot-password.page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/pages/header.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pages/header.page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pages/login.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pages/login.page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pages/username-recover.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pages/username-recover.page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/selectors/email-sent.sel.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/selectors/email-sent.sel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/selectors/footer.sel.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/selectors/footer.sel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/specs/footer-page-functionality.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/specs/footer-page-functionality.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/specs/header-page.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/specs/header-page.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wdio.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/wdio.conf.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +26,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/test/specs" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -112,7 +102,10 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c7ddec9c-732b-4c8e-978d-352c1749139b" name="Default Changelist" comment="" />
@@ -122,6 +115,7 @@
       <updated>1594847859096</updated>
       <workItem from="1594847863440" duration="43611000" />
       <workItem from="1594950580873" duration="30854000" />
+      <workItem from="1595050737717" duration="1611000" />
     </task>
     <task id="LOCAL-00001" summary="forgot password">
       <created>1594966083947</created>
@@ -148,7 +142,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="forgot password" />
@@ -166,22 +160,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594886803361" />
-    <state width="1515" height="344" key="GridCell.Tab.0.bottom" timestamp="1595036217080">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1899" height="291" key="GridCell.Tab.0.bottom" timestamp="1595052343280">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="344" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595036217080" />
-    <state width="1515" height="344" key="GridCell.Tab.0.center" timestamp="1595036217079">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1899" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595052343280" />
+    <state width="1899" height="291" key="GridCell.Tab.0.center" timestamp="1595052343279">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="344" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595036217079" />
-    <state width="1515" height="344" key="GridCell.Tab.0.left" timestamp="1595036217079">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1899" height="291" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595052343279" />
+    <state width="1899" height="291" key="GridCell.Tab.0.left" timestamp="1595052343279">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="344" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595036217079" />
-    <state width="1515" height="344" key="GridCell.Tab.0.right" timestamp="1595036217080">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1899" height="291" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595052343278" />
+    <state width="1899" height="291" key="GridCell.Tab.0.right" timestamp="1595052343279">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1515" height="344" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595036217080" />
+    <state width="1899" height="291" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595052343279" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1594848507176">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

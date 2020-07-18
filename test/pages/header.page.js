@@ -17,7 +17,7 @@ class Header extends Base {
     }
 
     headerTitleText() {
-        const text = $(sel.header).getText();
+        const text = $(sel.title).getText();
         assert.equal(text, expBase.titleMain)
     }
 
